@@ -1,0 +1,57 @@
+
+Table COLLEGE created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+Table STAFF created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+Error starting at line : 21 in command -
+insert into staff(staff_id,staff_name,staff_student_id,staff_loc,staff_sal) VALUES(10,'Tom',1,'India',50000)
+Error report -
+ORA-00001: unique constraint (ANONYMOUS.SYS_C007312) violated
+
+
+Error starting at line : 22 in command -
+insert into staff(staff_id,staff_name,staff_student_id,staff_loc,staff_sal) VALUES(20,'John',1,'India',40000)
+Error report -
+ORA-00001: unique constraint (ANONYMOUS.SYS_C007312) violated
+
+
+Error starting at line : 23 in command -
+insert into staff(staff_id,staff_name,staff_student_id,staff_loc,staff_sal) VALUES(50,'Tim',2,'India',40000)
+Error report -
+ORA-00001: unique constraint (ANONYMOUS.SYS_C007312) violated
+
+
+Error starting at line : 24 in command -
+insert into staff(staff_id,staff_name,staff_student_id,staff_loc,staff_sal) VALUES(60,'Jack',2,'India',70000)
+Error report -
+ORA-00001: unique constraint (ANONYMOUS.SYS_C007312) violated
+
+
+Commit complete.
+
